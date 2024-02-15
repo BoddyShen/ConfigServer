@@ -50,6 +50,15 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<from>
+						<image>openjdk:21</image>
+					</from>
+					<to>
+						<image>${REPO_URL}/configserver</image>
+						<tags>${project.version}</tags>
+					</to>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: config-server-app
-          image: pohengshen96/configserver
+          image: IMAGE_URL/configserver
           # resources:
           #   limits:
           #     memory: "128Mi"
